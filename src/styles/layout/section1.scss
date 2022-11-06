@@ -1,0 +1,72 @@
+.section1 {
+  &_wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow-y: hidden;
+    height: 1202px;
+  }
+  &_login-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right:0;
+    top: 150%;
+  }
+  &_header {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    margin-bottom: 112px;
+    width: 100%;
+    padding: 0 20%;
+  }
+
+  &_login-box-logo {
+    background: url("../../assets/img/section1_banner_logo.png") no-repeat
+      center;
+    width: 90%;
+    height: 212px;
+    background-size: contain;
+    margin-bottom: 113px;
+    @include b768 {
+      width: 589px;
+      height: 119px;
+      background: url("../../assets/img/section1_banner_logo_768.png") no-repeat
+        center;
+    }
+  }
+  &_login-box_opt {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    a {
+      color: white;
+      cursor: pointer;
+      font-weight: 400;
+      font-size: 42px;
+      line-height: 49px;
+      &.active {
+        color: var(--primary);
+        position: relative;
+        &::before {
+          content: "";
+          position: absolute;
+          left: -128px;
+          background: url("../../assets/img/section1_tank_btn.png");
+          width: 86px;
+          height: 53px;
+        }
+      }
+    }
+  }
+  &_login-box_footer {
+    margin-top: 103px;
+    color: white;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+  }
+}

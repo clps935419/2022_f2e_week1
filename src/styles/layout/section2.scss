@@ -1,0 +1,198 @@
+%msg-font-border {
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px var(--secondary);
+  text-stroke: 4px var(--secondary);
+}
+.section2-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 570px;
+  row-gap: 243px;
+  padding-bottom: 450px;
+}
+.card-wrapper {
+  background-color: #b82a06;
+
+  // width: 60%;
+  // height: 570px;
+  @include b768 {
+  }
+}
+.card-tank {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  @include b768 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  &_box {
+    width: 80%;
+    height: 429px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    & img {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      object-fit: fill;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+  }
+  &_box-tank {
+    background: url("../../assets/img/section2_tank_box_tank.png") no-repeat
+      center;
+    width: 336px;
+    height: 135px;
+    background-size: contain;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  &_top-msg {
+    position: absolute;
+    background: url("../../assets/img/section2_tank_box_top_msg.png") no-repeat
+      center;
+    width: 390px;
+    height: 117px;
+    right: 6px;
+    top: -50px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    padding-top: 18px;
+    color: var(--secondary);
+    z-index: 3;
+  }
+  &_left-msg {
+    position: absolute;
+    right: -14rem;
+    top: 90%;
+    transform: translateY(-90%);
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #ffffff;
+    z-index: 3;
+    @extend %msg-font-border;
+  }
+}
+.card-soldier {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  position: relative;
+  overflow: hidden;
+  @include b768 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  &_soldier{
+    background: url("../../assets/img/section2_soldier.png") no-repeat
+      bottom center;
+    width:80%;
+    height: 100%;
+    background-size: contain;
+    position: absolute;
+    left: 60%;
+    transform: translate(-60%, 0%);
+    top: 100%;
+    z-index: 1;
+  }
+  &_top-msg{
+    position: absolute;
+    top:20%;
+    left:20%;
+    background: url("../../assets/img/section2_soldier_top_msg.png") no-repeat
+      center;
+      width: 10%;
+      height: 10%;
+    background-size: contain;
+    z-index: 2;
+    opacity: 0;
+    color: var(--secondary);
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &_left-msg{
+    @extend %msg-font-border;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    position: absolute;
+    left: -11rem;
+    top: 90%;
+    transform: translateY(-90%);
+    z-index: 3;
+  }
+}
+.card-tree {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  position: relative;
+  overflow: hidden;
+  @include b768 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  &_tree{
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    transform: translate(-70%,0);
+    z-index: 1;
+    background: url("../../assets/img/section2_tree.png") no-repeat
+      center;
+      width: 80%;
+      height: 110%;
+    background-size: contain;
+  }
+  &_soldier{
+    background: url("../../assets/img/section2_tree_soldier.png") no-repeat
+      center;
+      width: 30%;
+      height: 30%;
+    background-size: contain;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,0);
+    z-index: 2;
+  }
+  &_right-msg{
+    position: absolute;
+    right: -12rem;
+    top: 90%;
+    transform: translateY(-90%);
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #ffffff;
+    z-index: 3;
+    @extend %msg-font-border;
+  }
+}

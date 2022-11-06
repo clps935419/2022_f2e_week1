@@ -1,0 +1,39 @@
+.my-btn {
+  position: relative;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #b82a06;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+
+  &:hover {
+    transition: all 0.2s;
+  box-shadow: -3px -3px 0px 0px var(--secondary);
+  -webkit-box-shadow: -3px -3px 0px 0px var(--secondary);
+  -moz-box-shadow: -3px -3px 0px 0px var(--secondary);
+  }
+
+  // &:hover,
+  // &:focus {
+  //   background-color: #fb8332;
+  //   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  // }
+
+  &:hover::before {
+    transform: translateY(-5px);
+  }
+
+  &:active {
+    background-color: var(--secondary);
+    box-shadow: unset;
+    transform: translateY(0);
+  }
+  &.disabled{
+    background: #DCDCDC;
+    color: #FFFFFF;
+  }
+}

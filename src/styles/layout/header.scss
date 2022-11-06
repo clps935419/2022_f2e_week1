@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 274px 11px 0;
+  background-color: var(--primary);
+  gap: 30px;
+  @include b1440 {
+    padding-right: 35px;
+  }
+  @include b768 {
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    gap: 0px;
+  }
+  &_left {
+    display: flex;
+    gap: 30px;
+    font-family: 'Cubic 11';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  &_right {
+    display: flex;
+    gap: 10px;
+  }
+  &_logo{
+    background: url("../../assets/img/header_logo.png") center no-repeat;
+    width: 105px;
+    height: 16px;
+  }
+  a{
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
