@@ -53,7 +53,7 @@ function Section2(props) {
       scrollTrigger: {
         trigger: ".card-tree",
         markers: true, // 開啟start & end標記點，單純方便瀏覽動畫開始與結束點
-        start: "top 80%", // 決定動畫開始點的位置
+        start: "top 100%", // 決定動畫開始點的位置
         end: "top 20%", // 決定動畫結束點的位置
         scrub: true, //重要！開啟scrub來決定動畫播放是否依賴視窗滾動
       },
@@ -145,7 +145,7 @@ function Section2(props) {
           "<"
         )
         .to(".card-tree_soldier", {
-          duration: 20,
+          duration: 10,
           top: "70%",
         })
         .to(".card-tree_right-msg", {
