@@ -1,6 +1,7 @@
 .section3 {
   &-wrapper {
-    height: 1407px;
+    height: 100vh;
+    overflow: hidden;
     // background-color: #ffb3a4;
     background-color: black;
     margin-bottom: 200px;
@@ -18,7 +19,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    top: 50%;
+    top: 80%;
     > div:first-child {
       font-weight: 400;
       font-size: 72px;
@@ -40,7 +41,7 @@
     background: url("../../assets/img/section3_layer2.png") no-repeat center;
     width: 100%;
     height: 672px;
-    top: 20%;
+    bottom: -5%;
     z-index: 2;
   }
   &_layer3-bg {
@@ -50,7 +51,7 @@
     width: 80%;
     height: 672px;
     right: 0;
-    top: 20%;
+    bottom: -5%;
   }
   &_layer4-bg {
     z-index: 4;
@@ -59,7 +60,7 @@
     background-size: contain;
     width: 80%;
     height: 672px;
-    top: 20%;
+    bottom: -5%;
     left: 0;
   }
   &_layer5-bg {
@@ -68,7 +69,7 @@
     background-size: contain;
     width: 100%;
     height: 672px;
-    top: 20%;
+    bottom: 0;
     left: 0;
   }
 }
