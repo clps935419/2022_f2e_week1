@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.js": "/main.5fa9b01b.js",
+    "main.css": "/static/css/main.2c78ac18.css",
+    "787.5fa9b01b.js": "/787.5fa9b01b.js",
+    "Cubic_11_1.013_R.woff": "/48639d6e84f42eb883ed.woff",
+    "section6_bg.png": "/072ee6f7ee21d917951d.png",
+    "section4_left_bg-2.png": "/543ceb19fff1f89b13b7.png",
+    "section4_left_bg-3.png": "/b5f3275e542475e70b1d.png",
+    "section4_left_bg.png": "/c9630febe5e3bc96881f.png",
+    "section3_layer5.png": "/1530befadc1b0174d9d9.png",
+    "Vector.png": "/da0078c18fa94a75b2f1.png",
+    "section2_tree.png": "/6a5ad70f4804e3e39c9e.png",
+    "blockstudio_logo.png": "/6f7940873894f5b42233.png",
+    "section2_tank_box_bg_2.png": "/3ad700fe12dc0df0ccdf.png",
+    "titan_logo.png": "/9fdcd09ce1d35db191c5.png",
+    "section1_banner_logo_768.png": "/2e490ab025aa2c3ec2a9.png",
+    "kdan_logo.png": "/8bc9861fc4605666e0a3.png",
+    "section3_layer2.png": "/fe5ed043364d2553fa9e.png",
+    "section2_soldier.png": "/c6ceef6e3fe647cb2154.png",
+    "section1_banner_logo.png": "/d8142ca3e416f84baa88.png",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "main.5fa9b01b.js",
+    "static/css/main.2c78ac18.css"
+  ]
+}
