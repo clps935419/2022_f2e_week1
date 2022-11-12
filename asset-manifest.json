@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/main.5fa9b01b.js",
+    "main.js": "/main.5409eaed.js",
     "main.css": "/static/css/main.2c78ac18.css",
-    "787.5fa9b01b.js": "/787.5fa9b01b.js",
+    "787.5409eaed.js": "/787.5409eaed.js",
     "Cubic_11_1.013_R.woff": "/48639d6e84f42eb883ed.woff",
     "section6_bg.png": "/072ee6f7ee21d917951d.png",
     "section4_left_bg-2.png": "/543ceb19fff1f89b13b7.png",
@@ -22,7 +22,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "main.5fa9b01b.js",
+    "main.5409eaed.js",
     "static/css/main.2c78ac18.css"
   ]
 }
