@@ -16,7 +16,7 @@ function Section2(props) {
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: ".card-tank_top-msg", // 決定scrolltrigger要以哪一個元素作為觸發基準點
-        markers: true, // 開啟start & end標記點，單純方便瀏覽動畫開始與結束點
+        // markers: true, // 開啟start & end標記點，單純方便瀏覽動畫開始與結束點
         start: "top 50%", // 決定動畫開始點的位置
         end: "top 1%", // 決定動畫結束點的位置
         scrub: true, //重要！開啟scrub來決定動畫播放是否依賴視窗滾動
@@ -25,7 +25,7 @@ function Section2(props) {
     const tl2 = gsap.timeline({
       scrollTrigger: {
         trigger: ".card-tank_box", // 決定scrolltrigger要以哪一個元素作為觸發基準點
-        markers: true, // 開啟start & end標記點，單純方便瀏覽動畫開始與結束點
+        // markers: true, // 開啟start & end標記點，單純方便瀏覽動畫開始與結束點
         start: "top 100%", // 決定動畫開始點的位置
         end: "top 1%", // 決定動畫結束點的位置
       },
@@ -34,7 +34,7 @@ function Section2(props) {
     const tl3 = gsap.timeline({
       scrollTrigger: {
         trigger: ".card-tank_left-msg", // 決定scrolltrigger要以哪一個元素作為觸發基準點
-        markers: true, // 開啟start & end標記點，單純方便瀏覽動畫開始與結束點
+        // markers: true, // 開啟start & end標記點，單純方便瀏覽動畫開始與結束點
         start: "top 50%", // 決定動畫開始點的位置
         end: "top 10%", // 決定動畫結束點的位置
         scrub: true, //重要！開啟scrub來決定動畫播放是否依賴視窗滾動
@@ -43,7 +43,7 @@ function Section2(props) {
     const tl4 = gsap.timeline({
       scrollTrigger: {
         trigger: ".card-soldier", // 決定scrolltrigger要以哪一個元素作為觸發基準點
-        markers: true, // 開啟start & end標記點，單純方便瀏覽動畫開始與結束點
+        // markers: true, // 開啟start & end標記點，單純方便瀏覽動畫開始與結束點
         start: "top 40%", // 決定動畫開始點的位置
         end: "top 1%", // 決定動畫結束點的位置
         scrub: true, //重要！開啟scrub來決定動畫播放是否依賴視窗滾動
@@ -52,7 +52,7 @@ function Section2(props) {
     const tl5 = gsap.timeline({
       scrollTrigger: {
         trigger: ".card-tree",
-        markers: true, // 開啟start & end標記點，單純方便瀏覽動畫開始與結束點
+        // markers: true, // 開啟start & end標記點，單純方便瀏覽動畫開始與結束點
         start: "top 40%", // 決定動畫開始點的位置
         end: "top 1%", // 決定動畫結束點的位置
         scrub: true, //重要！開啟scrub來決定動畫播放是否依賴視窗滾動

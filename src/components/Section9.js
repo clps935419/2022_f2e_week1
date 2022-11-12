@@ -62,7 +62,9 @@ function Section9({ isLoading }) {
           return <div {...item}></div>;
         })}
         <div className="section9__grid">
-          <div className="section9__header">鑽石及贊助商</div>
+          <div className="section9__header">
+            鑽石及<span>贊助商</span>
+          </div>
           <div>
             <img src={block} alt="" />
           </div>
