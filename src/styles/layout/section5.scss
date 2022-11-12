@@ -1,0 +1,53 @@
+.section5 {
+  &-wrapper {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  &__btn {
+    font-family: "Cubic 11";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #b82a06;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    position: absolute;
+    right: 50px;
+    top: 70%;
+  }
+  &__flag img{
+    position: absolute;
+    opacity: 0;
+    left: 10%;
+    top: 40%;
+    transform: translate(-10%, -40%);
+  }
+  &__layer {
+    width: 30%;
+    height: 100vh;
+    left: 100%;
+    top: 30%;
+    transform: translate(0, -30%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    > div:first-child {
+      font-family: "Cubic 11";
+      font-weight: 400;
+      font-size: 72px;
+      color: #ffb3a4;
+    }
+    > div {
+      font-family: "Cubic 11";
+      font-weight: 400;
+      font-size: 24px;
+      color: white;
+      /* or 36px */
+    }
+  }
+}

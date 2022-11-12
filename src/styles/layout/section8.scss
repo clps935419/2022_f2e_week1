@@ -1,0 +1,83 @@
+.section8 {
+  &-wrapper {
+    padding-bottom: 200px;
+  }
+  &__header {
+    text-align: center;
+    font-family: "Cubic 11";
+    font-weight: 400;
+    font-size: 56px;
+    color: #ffffff;
+    padding: 38px 0 37px 0;
+    background: #b82a06;
+    margin-bottom: 80px;
+  }
+  &__tab-wrapper {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 250px;
+  }
+  &__tab-nav {
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  &__tab-nav-item {
+    font-family: "Cubic 11";
+    font-weight: 400;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    color: #b82a06;
+    width: 40%;
+    padding: 10px 15px;
+    background: #ffffff;
+    &.active {
+      background: var(--primary);
+      color: #ffffff;
+    }
+  }
+  &__tab-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+    > li {
+      font-family: "Cubic 11";
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 150%;
+      color: #ffb3a4;
+
+      > div:first-child {
+        color: #ffb3a4;
+      }
+      > div:nth-child(2) {
+        color: white;
+      }
+    }
+  }
+  &__btn {
+    width: 85%;
+    height: 140px;
+    margin: 0 auto;
+    font-family: "Cubic 11";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+
+    /* primary */
+
+    color: #b82a06;
+  }
+}

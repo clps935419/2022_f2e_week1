@@ -29,7 +29,7 @@ function Loading() {
       <div className="loading_wrapper" ref={root}>
         <div className="loading_center">
           <div className="loading_center-word"></div>
-          {/* <img src={tank} alt="tank" />; */}
+          <img src={tank} alt="tank" />;
         </div>
       </div>
     </>

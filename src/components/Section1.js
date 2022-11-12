@@ -16,11 +16,11 @@ function Section1(props) {
     }
     gsap.to(".section1_login-box", {
       top: "24px",
-      duration: 5,
+      duration: 3,
     });
     gsap.to("body", {
       overflowY: "auto",
-      duration: 5,
+      duration: 3,
     });
 
     return () => {
